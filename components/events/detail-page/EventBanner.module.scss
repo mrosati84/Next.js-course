@@ -1,0 +1,20 @@
+.banner {
+  height: 10em;
+  overflow: hidden;
+  border-radius: 1em;
+
+  h1 {
+    z-index: 10;
+    position: absolute;
+    color: #fff;
+  }
+
+  img {
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 10em;
+    width: 100%;
+  }
+}
