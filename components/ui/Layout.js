@@ -1,4 +1,3 @@
-import { Main } from "next/document";
 import MainNavigation from "./MainNavigation";
 
 function Layout(props) {
