@@ -6,10 +6,10 @@ function HomePage() {
   const featuredEvents = getFeaturedEvents();
 
   return (
-    <main>
+    <div>
       <h1>Events app</h1>
       <EventList events={featuredEvents} />
-    </main>
+    </div>
   );
 }
 

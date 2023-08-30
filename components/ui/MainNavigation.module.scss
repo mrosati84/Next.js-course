@@ -1,0 +1,32 @@
+.topbar {
+  height: 5em;
+  display: flex;
+}
+
+.logo {
+  width: 50px;
+  height: 25px;
+  background-color: lime;
+}
+
+.mainnav {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-left: 1em;
+
+  li {
+    margin-right: 10px;
+
+    a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+      padding: 5px 10px;
+      border: 1px solid #333;
+      border-radius: 4px;
+      background-color: #f2f2f2;
+    }
+  }
+}

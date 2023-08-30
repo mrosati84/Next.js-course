@@ -16,13 +16,13 @@ function EventPage() {
   }
 
   return (
-    <Fragment>
+    <div>
       <EventBanner event={event} />
       <EventLogistics event={event} />
       <EventContent>
         <p>{event.description}</p>
       </EventContent>
-    </Fragment>
+    </div>
   );
 }
 
