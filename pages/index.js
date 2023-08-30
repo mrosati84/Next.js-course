@@ -1,13 +1,13 @@
 import { getFeaturedEvents } from "../dummy-data";
 
-import EventList from "../components/EventList/EventList";
+import EventList from "../components/events/EventList";
 
 function HomePage() {
   const featuredEvents = getFeaturedEvents();
 
   return (
     <main>
-      <h1>My nextjs app</h1>
+      <h1>Events app</h1>
       <EventList events={featuredEvents} />
     </main>
   );

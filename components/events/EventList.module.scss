@@ -1,0 +1,13 @@
+.list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+
+  li {
+    background: #eee;
+    margin: 0 1em;
+    padding: 1em;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 0.5em;
+  }
+}
