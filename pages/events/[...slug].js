@@ -18,6 +18,7 @@ function EventsFilterPage() {
   if (isNaN(numYear) || isNaN(numMonth) || numMonth < 1 || numMonth > 12) {
     return (
       <div>
+        <h1>Error</h1>
         <p>Invalid filters.</p>
       </div>
     );
@@ -28,7 +29,7 @@ function EventsFilterPage() {
     month: numMonth,
   });
 
-  if (!filteredEvents || filteredEvents.length === 0) {
+  if (filteredEvents && filteredEvents.length > 0) {
     return (
       <div>
         <h1>Events Filtered Page</h1>
