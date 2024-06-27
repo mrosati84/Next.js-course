@@ -7,7 +7,7 @@ function HomePage() {
 
   return (
     <div>
-      <h1>Events app</h1>
+      <h1>Events app title</h1>
       <EventList events={featuredEvents} />
     </div>
   );
